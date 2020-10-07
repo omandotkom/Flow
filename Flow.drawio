@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2020-10-07T09:54:04.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" version="13.7.7" etag="lzh7WTUclw8mvOYVetpO" type="github"><diagram id="VUYOUcLSTNesoHuxwyxF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-07T09:58:59.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="g3VY6AhG2WVPvJ_GYRNN" version="13.7.7" type="github">
+  <diagram id="VUYOUcLSTNesoHuxwyxF" name="Page-1">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fw0LZEKKgFk2uAr3LbG0-1" target="fw0LZEKKgFk2uAr3LbG0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-1" value="ZUL (ZK UI)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fw0LZEKKgFk2uAr3LbG0-2" target="fw0LZEKKgFk2uAr3LbG0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-2" value="ZK UI ViewModel (VMD)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fw0LZEKKgFk2uAr3LbG0-3" target="fw0LZEKKgFk2uAr3LbG0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-3" value="Service(Web)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-4" value="Pada VMMD terdapat struktur POJO milik objek yang diambil dari projet-BOM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-7" value="Memanggil call webService (dari common lib)&amp;nbsp; &lt;br&gt;dengan me return sesuai dengan struktur&lt;br&gt;&amp;nbsp;dari class di project - bom yang ditentukan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="70" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-8" value="NETWORK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
