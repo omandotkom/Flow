@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-07T09:58:59.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="g3VY6AhG2WVPvJ_GYRNN" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-07T13:28:52.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="n5hShn690QmEm_oz_ni9" version="13.7.7" type="github">
   <diagram id="VUYOUcLSTNesoHuxwyxF" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,6 +30,18 @@
         </mxCell>
         <mxCell id="fw0LZEKKgFk2uAr3LbG0-8" value="NETWORK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="160" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-10" value="RestController" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-11" value="Menggunakan Spring, berisii route &lt;br&gt;handler setiap request yang masuk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-12" value="Service" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fw0LZEKKgFk2uAr3LbG0-13" value="Pada RestController terdapat &lt;br&gt;autowire terhadap service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="280" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
